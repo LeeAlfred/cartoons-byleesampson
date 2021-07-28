@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f9a8b200-e8f6-439a-b75b-ce3c237968f9/deploy-status)](https://app.netlify.com/sites/cartoons-byleesampson/deploys)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
