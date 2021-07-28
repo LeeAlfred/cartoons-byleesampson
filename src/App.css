@@ -1,38 +1,56 @@
 .App {
   text-align: center;
+  font-family: 'Shadows Into Light', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  padding: 0 16px;
+  font-family: 'Shadows Into Light', cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.navbar{
+  margin-bottom: 50px;
+  padding: 0px 16px 0 16px;
+  margin-left: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn{
+ margin-left: 50px;
+ margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.heading {
+  margin-top: 10px; 
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel{
+  
+  padding-top: 80px;
+  
+}
+.polaroid {
+  height: 200px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px 10px 30px 10px;
+  width: auto;
+  margin: 16px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  
+  
+}
+.cartoon{
+  display: inline-block;  
+  
+}
+
+.about-section{
+  text-align: left;
+  margin-bottom: 50px;
+  padding: 0px 16px 0 16px;
+  margin-left: 16px;
 }

@@ -1,23 +1,47 @@
-import logo from './logo.svg';
+// bootstrap and styling
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
+// Components
+import Nav from './Nav';
+// import Heading from './Heading';
+import Slide from './Slide';
+import Polaroid from './Polaroid';
+import About from './About';
+import Footer from './Footer';
+import cartoon from './cartoon';
+
+
+function createPolaroid(cartoon){
+  return <Polaroid key={cartoon.id} img={cartoon.img} />
+}
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div className="App">
+   <Container id="home" fluid>
+   <Nav />
+    <Row>
+    {/* <Col>
+    <Heading />
+    </Col> */}
+    </Row>
+    <Row>
+      <Slide />
+    </Row>
+    {cartoon.map(createPolaroid)}
+    <Row>
+      <Col>
+        <About />
+      </Col>
+    </Row>
+    <Footer />
+
+  </Container>
     </div>
   );
 }
