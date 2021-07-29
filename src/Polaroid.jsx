@@ -19,10 +19,12 @@ const options = {
 function Polaroid (props){
     return (
         <div id="gallery" className='cartoon'>
-        <SRLWrapper options={options}>
+          <SRLWrapper options={options}>
             <Image className="polaroid" src={props.img} alt='Original work by Lee Sampson' />
-            </SRLWrapper>
+          </SRLWrapper>
+        
         </div>
+        
     );
 }
 

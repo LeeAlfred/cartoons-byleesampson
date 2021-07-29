@@ -3,7 +3,8 @@ import React from "react";
 function About() {
 return(
     <div id="about" className="about-section">
-      <h2>About</h2>
+       <hr/>    
+      <h2 className="about-title">About Lee</h2>
       <p>I've always loved drawing.</p>
       <p>The colours and form of cartoons were always an escape hatch from reality growing up.</p>
       <p>When I realised that I could emmulate what I saw then the drawbridge to my imagination was opened.</p>

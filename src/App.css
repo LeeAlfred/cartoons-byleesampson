@@ -4,13 +4,12 @@
 }
 
 body{
-  padding: 0 16px;
   font-family: 'Shadows Into Light', cursive;
 }
 
 
 .navbar{
-  margin-bottom: 50px;
+  
   padding: 0px 16px 0 16px;
   margin-left: 16px;
 }
@@ -18,6 +17,7 @@ body{
 .btn{
  margin-left: 50px;
  margin-bottom: 10px;
+ width: 80px;
 }
 
 .heading {
@@ -26,8 +26,8 @@ body{
 }
 
 .carousel{
-  
-  padding-top: 80px;
+  padding-top: 100px;
+  padding-bottom: 40px;
   
 }
 .polaroid {
@@ -36,7 +36,7 @@ body{
   box-shadow: 0 2px 5px #ccc;
   padding: 10px 10px 30px 10px;
   width: auto;
-  margin: 16px;
+  margin: 8px;
   display: inline-block;
   vertical-align: top;
   text-align: left;
@@ -53,4 +53,10 @@ body{
   margin-bottom: 50px;
   padding: 0px 16px 0 16px;
   margin-left: 16px;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+.about-title{
+  font-family: 'Shadows Into Light', cursive;
 }

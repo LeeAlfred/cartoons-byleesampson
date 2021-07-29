@@ -24,7 +24,9 @@ function App() {
   return (
   <div className="App">
    <Container id="home" fluid>
-   <Nav />
+   <Row>
+     <Nav />
+    </Row>
     <Row>
     {/* <Col>
     <Heading />
