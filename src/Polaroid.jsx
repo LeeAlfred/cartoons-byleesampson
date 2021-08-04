@@ -11,8 +11,11 @@ const options = {
       showDownloadButton: false, },
     settings:{
       disableWheelControls: true,
-  
-    }
+      overlayColor: "rgb(255, 255, 255)",
+      },
+    caption: {
+      captionColor: "#000000",
+    },
   }
 
 
